@@ -10,7 +10,7 @@
 
 Clone the repository: 
 ```
-https://github.com/tdchaitanya/MMTOD.git
+https://github.com/suryagutta/AV-Thermal-Pseudo-Multimodal.git
 ```
 
 Create a folder:
@@ -27,9 +27,13 @@ mkdir data
 
 ### Data Preparation
 
-* **FLIR ADAS**: Dataset can be downloaded from [here](https://www.flir.in/oem/adas/adas-dataset-form/).
+* **FLIR ADAS**: Dataset can be downloaded from [here](https://www.flir.in/oem/adas/adas-dataset-form/).  
+[Direct download from **Box**](https://flir.app.box.com/s/1z1wn8e5b9ff0vvcc589l1m5529smrnx).  
 
-* **KAIST**: Dataset can be downloaded from [here](https://sites.google.com/site/pedestrianbenchmark/).
+* **KAIST**: Dataset can be downloaded from [here](https://sites.google.com/site/pedestrianbenchmark/).  
+[**Updated** download link](https://soonminhwang.github.io/rgbt-ped-detection/). It has a python script (/data/scripts/fetch_dataset_kaist_cvpr15.py) to download the dataset.
+
+
 
 For ease of training, we convert all the annotations into PASCAL-VOC format. To convert the FLIR and KAIST datasets annotations into P-VOC format, use the scripts in the `generate_annotations` folder.
 
